@@ -22,6 +22,9 @@ entries:
   - title: Overview
     output: web, pdf
     folderitems:
+    - title: Saleae Support
+      url: /home_saleae_support.html
+      output: web, pdf
 
     - title: Get started
       url: /index.html
