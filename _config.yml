@@ -3,7 +3,7 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Saleae
+topnav_title: Saleae Support
 # this appears on the top navigation bar next to the home button
 
 site_title: Saleae Support
@@ -37,7 +37,7 @@ exclude:
 
 feedback_subject_line: Saleae Support Feedback
 
-feedback_email: support@saleae.com
+feedback_email: 
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
