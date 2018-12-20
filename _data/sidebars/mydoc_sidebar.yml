@@ -21,14 +21,14 @@ entries:
 
 # Home
 
-#  - title: Home
-#    output: web, pdf
-#    folderitems:
-
-  - title: 
-    url: /index.html
+  - title: Home
     output: web, pdf
-    type: homepage
+    folderitems:
+
+    - title: Saleae Support
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
 # Getting Started
 
