@@ -111,7 +111,6 @@ entries:
           url: /tag_formatting.html
           output: web, pdf
 
-#      subfolders:
       - title: Invoices & W-9
         output: web
         subfolderitems:
@@ -364,7 +363,6 @@ entries:
           url: /tag_troubleshooting.html
           output: web
 
-      subfolders:
       - title: Tag archive pages 2
         output: web
         subfolderitems:
