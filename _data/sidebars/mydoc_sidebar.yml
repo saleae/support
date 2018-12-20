@@ -19,31 +19,49 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+# Home
+
+  - title: Home
     output: web, pdf
     folderitems:
-    - title: Saleae Support
-      url: /home_saleae_support.html
-      output: web, pdf
 
-    - title: Get started
+    - title: Saleae Support
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
+# Getting Started
+
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+
+    - title: Setup
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Configure
       url: /mydoc_introduction.html
       output: web, pdf
 
-    - title: Supported features
+    - title: Record
       url: /mydoc_supported_features.html
       output: web, pdf
 
-    - title: About the theme author
+    - title: Navigate
       url: /mydoc_about.html
       output: web, pdf
 
-    - title: Support
+    - title: Measure
+      url: /mydoc_support.html
+      output: web, pdf
+
+    - title: Trigger
+      url: /mydoc_support.html
+      output: web, pdf
+
+    - title: Protocols
       url: /mydoc_support.html
       output: web, pdf
 
