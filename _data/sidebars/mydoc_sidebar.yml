@@ -21,14 +21,14 @@ entries:
 
 # Home
 
-  - title: Home
-    output: web, pdf
-    folderitems:
+#  - title: Home
+#    output: web, pdf
+#    folderitems:
 
-    - title: Saleae Support
-      url: /index.html
-      output: web, pdf
-      type: homepage
+  - title: Saleae Support
+    url: /index.html
+    output: web, pdf
+    type: homepage
 
 # Getting Started
 
@@ -37,7 +37,7 @@ entries:
     folderitems:
 
     - title: Setup
-      url: /index.html
+      url: /mydoc_introduction.html
       output: web, pdf
       type: homepage
 
@@ -46,23 +46,23 @@ entries:
       output: web, pdf
 
     - title: Record
-      url: /mydoc_supported_features.html
+      url: /mydoc_introduction.html
       output: web, pdf
 
     - title: Navigate
-      url: /mydoc_about.html
+      url: /mydoc_introduction.html
       output: web, pdf
 
     - title: Measure
-      url: /mydoc_support.html
+      url: /mydoc_introduction.html
       output: web, pdf
 
     - title: Trigger
-      url: /mydoc_support.html
+      url: /mydoc_introduction.html
       output: web, pdf
 
     - title: Protocols
-      url: /mydoc_support.html
+      url: /mydoc_introduction.html
       output: web, pdf
 
   - title: Release Notes
