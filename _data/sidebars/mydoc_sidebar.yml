@@ -364,10 +364,6 @@ entries:
           url: /tag_troubleshooting.html
           output: web
 
-    - title: Tag archives overview 2
-      url: /mydoc_tag_archives_overview.html
-      output: web
-
       subfolders:
       - title: Tag archive pages 2
         output: web
