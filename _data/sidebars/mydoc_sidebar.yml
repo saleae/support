@@ -98,10 +98,6 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-    - title: Shipping Policy
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
       subfolders:
       - title: Sales FAQ
         output: web
@@ -110,6 +106,10 @@ entries:
         - title: What Accessories Should I Purchase with My Device?
           url: /tag_formatting.html
           output: web, pdf
+
+    - title: Shipping Policy
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
 
       subfolders:
       - title: Invoices & W-9
