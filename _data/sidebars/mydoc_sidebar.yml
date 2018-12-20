@@ -102,7 +102,7 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-#      subfolders:
+      subfolders:
       - title: Sales FAQ
         output: web
         subfolderitems:
@@ -363,3 +363,7 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
+
+    - title: Tag archives overview 2
+      url: /mydoc_tag_archives_overview.html
+      output: web
