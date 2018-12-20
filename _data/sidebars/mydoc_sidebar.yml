@@ -98,6 +98,10 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
+    - title: Shipping Policy
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
       subfolders:
       - title: Sales FAQ
         output: web
@@ -107,9 +111,9 @@ entries:
           url: /tag_formatting.html
           output: web, pdf
 
-    - title: Shipping Policy
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
+    - title:
+      url:
+      output:
 
       subfolders:
       - title: Invoices & W-9
