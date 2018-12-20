@@ -64,17 +64,67 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
-  - title: Release Notes
+# Orders & Shipping
+
+  - title: Orders & Shipping
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
+    - title: Place an Order
       url: /mydoc_release_notes_60.html
       output: web, pdf
 
-    - title: 5.0 Release notes
+    - title: Request a Quote
       url: /mydoc_release_notes_50.html
       output: web, pdf
+      
+    - title: Place a Purchase Order (PO)
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Distributors
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Pricing & Availability
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Discounts
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Tax Exemption
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Shipping Policy
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+      subfolders:
+      - title: Invoices & W-9
+        output: web
+        subfolderitems:
+
+        - title: Receiving Invoices
+          url: /tag_formatting.html
+          output: web
+
+        - title: W-9 Form
+          url: /tag_formatting.html
+          output: web
+
+      subfolders:
+      - title: Sales FAQ
+        output: web
+        subfolderitems:
+
+        - title: What Accessories Should I Purchase with My Device?
+          url: /tag_formatting.html
+          output: web
+
+  # User Guide
 
   - title: Installation
     output: web, pdf
