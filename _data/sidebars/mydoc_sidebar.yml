@@ -25,7 +25,7 @@ entries:
 #    output: web, pdf
 #    folderitems:
 
-  - title: Saleae Support
+  - title: 
     url: /index.html
     output: web, pdf
     type: homepage
