@@ -367,3 +367,12 @@ entries:
     - title: Tag archives overview 2
       url: /mydoc_tag_archives_overview.html
       output: web
+
+      subfolders:
+      - title: Tag archive pages 2
+        output: web
+        subfolderitems:
+
+        - title: Formatting pages
+          url: /tag_formatting.html
+          output: web
