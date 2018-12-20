@@ -102,7 +102,7 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-      subfolders:
+#      subfolders:
       - title: Sales FAQ
         output: web
         subfolderitems:
@@ -111,11 +111,7 @@ entries:
           url: /tag_formatting.html
           output: web, pdf
 
-    - title:
-      url:
-      output:
-
-      subfolders:
+#      subfolders:
       - title: Invoices & W-9
         output: web
         subfolderitems:
