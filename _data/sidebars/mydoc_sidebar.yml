@@ -28,7 +28,7 @@ entries:
     folderitems:
 
     - title: Setup
-      url: /getting-started/setup.html
+      url: /setup.html
       output: web, pdf
 
     - title: Configure
