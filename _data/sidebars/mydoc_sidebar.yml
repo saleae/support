@@ -21,15 +21,6 @@ entries:
 
 # Home
 
-#  - title: Home
-#    output: web, pdf
-#    folderitems:
-
-#    - title: Saleae Support
-#      url: /index.html
-#      output: web, pdf
-#      type: homepage
-
 # Getting Started
 
   - title: Getting Started
@@ -37,7 +28,7 @@ entries:
     folderitems:
 
     - title: Setup
-      url: /mydoc_introduction.html
+      url: /getting-started/setup.html
       output: web, pdf
 
     - title: Configure
