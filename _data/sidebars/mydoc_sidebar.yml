@@ -114,4 +114,12 @@ entries:
           url: /tag_formatting.html
           output: web, pdf
 
-  # User Guide
+  # Protocol Analyzers
+
+    - title: Protocol Analyzers
+      output: web, pdf
+      folderitems:
+
+      - title: Supported Protocols
+        url: /supported-protocols.html
+        output: web, pdf
