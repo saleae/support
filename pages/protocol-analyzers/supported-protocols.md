@@ -1,7 +1,7 @@
 ---
 title: "Supported Protocols"
 sidebar: mydoc_sidebar
-## permalink: supported-protocols.html
+permalink: supported-protocols.html
 folder: protocol-analyzers
 summary:
 ---
