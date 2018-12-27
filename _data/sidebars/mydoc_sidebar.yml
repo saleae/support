@@ -121,9 +121,9 @@ entries:
     folderitems:
 
     - title: Supported Protocols
-      url: supported-protocols.html
+      url: /supported-protocols.html
       output: web, pdf
 
     - title: Unofficially Supported Protocols
-      url: unofficially-supported-protocols.html
+      url: /unofficially-supported-protocols.html
       output: web, pdf
