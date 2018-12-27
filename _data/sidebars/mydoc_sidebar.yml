@@ -121,5 +121,5 @@ entries:
     folderitems:
 
     - title: Supported Protocols
-      url: /supported-protocols.html
+      url: /protocol-analyzers/supported-protocols.html
       output: web, pdf
