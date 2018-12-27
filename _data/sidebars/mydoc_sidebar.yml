@@ -116,10 +116,10 @@ entries:
 
   # Protocol Analyzers
 
-    - title: Protocol Analyzers
-      output: web, pdf
-      folderitems:
+  - title: Protocol Analyzers
+    output: web, pdf
+    folderitems:
 
-      - title: Supported Protocols
-        url: /supported-protocols.html
-        output: web, pdf
+    - title: Supported Protocols
+      url: /supported-protocols.html
+      output: web, pdf
