@@ -4,7 +4,7 @@ tags:
 keywords:
 summary:
 sidebar: mydoc_sidebar
-permalink: getting-started/setup.html
+permalink: setup.html
 folder: getting-started
 ---
 
