@@ -127,3 +127,12 @@ entries:
     - title: Unofficially Supported Protocols
       url: /unofficially-supported-protocols.html
       output: web, pdf
+
+      subfolders:
+      - title: Analyzer User Guides
+        output: web
+        subfolderitems:
+        
+        - title: Decode Differential and High Voltage Data
+          url: /decode-differential-and-high-voltage.html
+          output: web, pdf
