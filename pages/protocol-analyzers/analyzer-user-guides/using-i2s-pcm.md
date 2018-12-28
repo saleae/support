@@ -28,7 +28,9 @@ The Saleae I2S analyzer does not support any Mono formats.
 
 * This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character \(in this case, outside of the low ascii range completely\) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
-{% page-ref page="../../faq/technical-faq/changing-the-display-radix.md" %}
+
+
+
 
 * Decoder displays "Error: bits don't divide evenly between subframes" or decoder does not display the data correctly as shown below.
 

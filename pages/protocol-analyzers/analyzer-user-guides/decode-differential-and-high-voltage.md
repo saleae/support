@@ -8,14 +8,14 @@ summary:
 
 Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
 
-### **RS-232, RS-485, and RS-422**
+### RS-232, RS-485, and RS-422
 
 * All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
 * The original Logic and Logic16 cannot be directly connected to these signals. They also have over-voltage protection, but it was not designed to be used with these signals continuously. Either use a voltage divider or a dedicated line transceiver/receiver to convert these signals to CMOS/TTL levels.
 * When recording any of these signals, it is important to properly connect the ground from the logic analyzer to either the ground of the transmitter or the receiver. Do not connect ground to one of the signal wires, as this could damage your equipment. Neither RS-232, RS-485, nor RS-422 are isolated, which means that all transmitters and receivers on the bus must share the same ground to operate. In most cases, a ground wire is included in the bus wiring, which could be tapped with Logic. Otherwise, you will need to find another ground connection nearby to connect to.
 * For RS-422 and RS-485, it's generally not necessary to record both the + and - signals. In most cases, recording only one-half of the differential pair is sufficient. However, it's usually a good idea to record both sides, at least at first, to evaluate the differences in the recording quality of the two signals. Because the threshold voltage of the logic analyzer is not matched properly for differential signals, it's likely that one side of the differential pair will have a cleaner recording than the other.
 
-### **12V and 24V TTL Logic**
+### 12V and 24V TTL Logic
 
 * Connecting to higher voltage signals with the new Logic 4, Logic 8, Logic Pro 8, or the Logic Pro 16.
 

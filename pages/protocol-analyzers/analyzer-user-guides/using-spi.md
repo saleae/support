@@ -112,9 +112,12 @@ This occurs when the clock polarity setting is not set properly. For instance, i
 
 If you are considering purchasing a Saleae logic analyzer to record and decode SPI data but you are not sure which unit to purchase, please first see these articles:
 
-{% page-ref page="../../faq/technical-faq/which-logic-analyzer-to-get.md" %}
 
-{% page-ref page="../../faq/technical-faq/what-sample-rate-is-required.md" %}
+
+
+
+
+
 
 A typical SPI bus with 1 slave has 4 electrical signals, which will require 4 channels \(Clock, MOSI, MISO, Enable\).
 
@@ -122,7 +125,10 @@ However, if there are multiple slave devices on the bus, keep in mind you will n
 
 Also, in some cases, there may be more than 2 data channels. Although our SPI analyzer does not support this, you can partially decode the traffic using the parallel analyzer.
 
-{% page-ref page="using-simple-parallel.md" %}
+
+
+
+
 
 
 
