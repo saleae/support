@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Using CAN
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: using-can.html
+folder: analyzer-user-guides
 summary:
 ---
 

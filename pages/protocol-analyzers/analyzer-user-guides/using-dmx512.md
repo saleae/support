@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Using DMX-512
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: using-dmx512.html
+folder: analyzer-user-guides
 summary:
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Decode RS-232, RS-485, & RS-422
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: decode-rs232-rs485-rs422.html
+folder: analyzer-user-guides
 summary:
 ---
 

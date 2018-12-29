@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Using Async Serial
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: using-async-serial.html
+folder: analyzer-user-guides
 summary:
 ---
 

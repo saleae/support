@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Using I2C
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: using-i2c.html
+folder: analyzer-user-guides
 summary:
 ---
 

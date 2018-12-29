@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Decode UART
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: decode-uart.html
+folder: analyzer-user-guides
 summary:
 ---
 

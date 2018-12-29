@@ -2,7 +2,7 @@
 title: Supported Protocols
 sidebar: mydoc_sidebar
 permalink: supported-protocols.html
-folder: protocol-analyzers
+folder: analyzer-user-guides
 summary:
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Using the Simple Parallel Analyzer
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: using-simple-parallel.html
+folder: analyzer-user-guides
 summary:
 ---
 

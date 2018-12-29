@@ -1,8 +1,8 @@
 ---
-title: Supported Protocols
+title: Using the I2S/PCM Analyzer
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
-folder: protocol-analyzers
+permalink: using-i2s-pcm.html
+folder: analyzer-user-guides
 summary:
 ---
 
