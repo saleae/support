@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Shipping Policy
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: shipping-policy.html
+folder: orders-shipping
 summary:
 ---
 

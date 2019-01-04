@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Pricing and Availability
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: pricing-and-availability.html
+folder: orders-shipping
 summary:
 ---
 

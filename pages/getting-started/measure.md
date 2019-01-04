@@ -1,7 +1,7 @@
 ---
-title: Setup
+title: Measure
 sidebar: mydoc_sidebar
-permalink: setup.html
+permalink: measure.html
 folder: getting-started
 summary:
 ---

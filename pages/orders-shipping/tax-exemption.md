@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Tax Exemption
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: tax-exemption.html
+folder: orders-shipping
 summary:
 ---
 

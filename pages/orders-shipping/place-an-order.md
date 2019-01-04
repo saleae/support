@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Place an Order
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: place-an-order.html
+folder: orders-shipping
 summary:
 ---
 

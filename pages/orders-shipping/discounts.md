@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Discounts
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: discounts.html
+folder: orders-shipping
 summary:
 ---
 

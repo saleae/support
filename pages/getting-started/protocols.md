@@ -1,7 +1,7 @@
 ---
-title: Setup
+title: Protocols
 sidebar: mydoc_sidebar
-permalink: setup.html
+permalink: protocols.html
 folder: getting-started
 summary:
 ---

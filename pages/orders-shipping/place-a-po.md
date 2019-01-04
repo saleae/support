@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Place a PO
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: place-a-po.html
+folder: orders-shipping
 summary:
 ---
 

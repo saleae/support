@@ -32,27 +32,27 @@ entries:
       output: web, pdf
 
     - title: Configure
-      url: /mydoc_introduction.html
+      url: /configure.html
       output: web, pdf
 
     - title: Record
-      url: /mydoc_introduction.html
+      url: /record.html
       output: web, pdf
 
     - title: Navigate
-      url: /mydoc_introduction.html
+      url: /navigate.html
       output: web, pdf
 
     - title: Measure
-      url: /mydoc_introduction.html
+      url: /measure.html
       output: web, pdf
 
     - title: Trigger
-      url: /mydoc_introduction.html
+      url: /trigger.html
       output: web, pdf
 
     - title: Protocols
-      url: /mydoc_introduction.html
+      url: /protocols.html
       output: web, pdf
 
 # Orders & Shipping
@@ -62,35 +62,35 @@ entries:
     folderitems:
 
     - title: Place an Order
-      url: /mydoc_release_notes_60.html
+      url: /place-an-order.html
       output: web, pdf
 
     - title: Request a Quote
-      url: /mydoc_release_notes_50.html
+      url: /request-a-quote.html
       output: web, pdf
       
     - title: Place a Purchase Order (PO)
-      url: /mydoc_release_notes_50.html
+      url: /place-a-po.html
       output: web, pdf
 
     - title: Distributors
-      url: /mydoc_release_notes_50.html
+      url: /distributors.html
       output: web, pdf
 
     - title: Pricing & Availability
-      url: /mydoc_release_notes_50.html
+      url: /pricing-and-availability.html
       output: web, pdf
 
     - title: Discounts
-      url: /mydoc_release_notes_50.html
+      url: /discounts.html
       output: web, pdf
 
     - title: Tax Exemption
-      url: /mydoc_release_notes_50.html
+      url: /tax-exemption.html
       output: web, pdf
 
     - title: Shipping Policy
-      url: /mydoc_release_notes_50.html
+      url: /shipping-policy.html
       output: web, pdf
 
       subfolders:

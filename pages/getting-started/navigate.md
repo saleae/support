@@ -1,7 +1,7 @@
 ---
-title: Setup
+title: Navigate
 sidebar: mydoc_sidebar
-permalink: setup.html
+permalink: navigate.html
 folder: getting-started
 summary:
 ---

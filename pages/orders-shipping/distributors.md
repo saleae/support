@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Distributors
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: distributors.html
+folder: orders-shipping
 summary:
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Setup
+title: Trigger
 sidebar: mydoc_sidebar
-permalink: setup.html
+permalink: trigger.html
 folder: getting-started
 summary:
 ---

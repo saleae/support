@@ -1,7 +1,7 @@
 ---
-title: Setup
+title: Record
 sidebar: mydoc_sidebar
-permalink: setup.html
+permalink: record.html
 folder: getting-started
 summary:
 ---

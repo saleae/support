@@ -1,8 +1,8 @@
 ---
-title: Setup
+title: Request a Quote
 sidebar: mydoc_sidebar
-permalink: setup.html
-folder: getting-started
+permalink: request-a-quote.html
+folder: orders-shipping
 summary:
 ---
 
