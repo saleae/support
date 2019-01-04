@@ -37,16 +37,16 @@ exclude:
 
 feedback_subject_line: Saleae Support Feedback
 
-feedback_email: 
+# feedback_email: 
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
-# feedback_text: "Need help?"
+feedback_text: "Contact Us"
 # if you uncomment the previous line, it changes the Feedback text
 
-# feedback_link: "http://helpy.io/"
+feedback_link: "https://contact.saleae.com/hc/en-us/requests/new"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
