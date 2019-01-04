@@ -11,7 +11,7 @@ summary:
 * We currently offer Net 30 Term to existing customers with a history of timely payments. 
 * If this is your first order with us, we will generate a Proforma Invoice for you to Prepay via Wire Transfer. We will ship your order on the first business day after payment is received.
 
-### Please Make Sure the PO Includes the Following:
+## Please Make Sure the PO Includes the Following:
 
 * Billing Address
 * Shipping Address
@@ -23,7 +23,7 @@ summary:
 * Email address and contact information for your Accounts Payable Department
 * Payment Term: Prepay via Wire Transfer or Net 30 Days from Date of Invoice 
 
-### Two Methods for Processing a PO Payment
+## Two Methods for Processing a PO Payment
 
 * Method 1 – Prepayment
   * Submit a Quote Request \(optional step - see link below this article\)
@@ -38,7 +38,7 @@ summary:
   * Send the payment to Saleae.
   * Payment must be received within 30 days of the invoice date.
 
-### Submitting a Quote Request
+## Submitting a Quote Request
 
 To receive a quote, please fill out our [Quote Request Form](https://saleae-support.typeform.com/to/WnpOte). Afterwards, one of our representatives will follow up with you via email.
 

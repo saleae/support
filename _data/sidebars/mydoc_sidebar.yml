@@ -93,26 +93,26 @@ entries:
       url: /shipping-policy.html
       output: web, pdf
 
-      subfolders:
-      - title: Invoices & W-9
-        output: web
-        subfolderitems:
+#      subfolders:
+#      - title: Invoices & W-9
+#        output: web
+#        subfolderitems:
 
-        - title: Receiving Invoices
-          url: /mydoc_about_ruby_gems_etc.html
-          output: web, pdf
+#        - title: Receiving Invoices
+#          url: /mydoc_about_ruby_gems_etc.html
+#          output: web, pdf
 
-        - title: W-9 Form
-          url: /mydoc_about_ruby_gems_etc.html
-          output: web, pdf
+#        - title: W-9 Form
+#          url: /mydoc_about_ruby_gems_etc.html
+#          output: web, pdf
 
-      - title: Sales FAQ
-        output: web
-        subfolderitems:
+#      - title: Sales FAQ
+#        output: web
+#        subfolderitems:
 
-        - title: What Accessories Should I Purchase with My Device?
-          url: /tag_formatting.html
-          output: web, pdf
+#        - title: What Accessories Should I Purchase with My Device?
+#          url: /tag_formatting.html
+#          output: web, pdf
 
   # Protocol Analyzers
 
