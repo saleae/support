@@ -8,8 +8,6 @@ summary:
 
 The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Some are distributed as source code and will require our Protocol Analyzer SDK in the article below to compile.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8V122EwwEGc?rel=0&controls=0&showinfo=0&autohide=1" showinfo="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
 
 ### **List of Unofficially Supported Protocols**

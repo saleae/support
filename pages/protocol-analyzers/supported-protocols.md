@@ -8,8 +8,6 @@ summary:
 
 The Saleae Logic software includes the following protocol analyzers:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8V122EwwEGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * Asynchronous Serial
 * I2C 
 * SPI \(Serial Peripheral Interface\)
