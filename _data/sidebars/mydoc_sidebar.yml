@@ -136,3 +136,39 @@ entries:
         - title: Decode Differential and High Voltage Data
           url: /decode-differential-and-high-voltage.html
           output: web, pdf
+
+        - title: Decode RS-232, RS-485, and RS-422
+          url: /decode-rs232-rs485-rs422.html
+          output: web, pdf
+
+        - title: Decode UART
+          url: /decode-uart.html
+          output: web, pdf
+
+        - title: Using the Async Serial Analyzer
+          url: /using-async-serial.html
+          output: web, pdf
+
+        - title: Using the CAN Analyzer
+          url: /using-can.html
+          output: web, pdf
+
+        - title: Using the DMX-512 Analyzer
+          url: /using-dmx512.html
+          output: web, pdf
+
+        - title: Using the I2C Analyzer
+          url: /using-i2c.html
+          output: web, pdf
+
+        - title: Using the I2S/PCM Analyzer
+          url: /using-i2s-pcm.html
+          output: web, pdf
+
+        - title: Using the Simple Parallel Analyzer
+          url: /using-simple-parallel.html
+          output: web, pdf
+
+        - title: Using the SPI Analyzer
+          url: /using-spi.html
+          output: web, pdf

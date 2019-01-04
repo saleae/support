@@ -1,7 +1,7 @@
 ---
 title: Supported Protocols
 sidebar: mydoc_sidebar
-permalink: supported-protocols.html
+permalink: using-spi.html
 folder: analyzer-user-guides
 summary:
 ---
