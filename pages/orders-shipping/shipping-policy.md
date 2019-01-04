@@ -6,65 +6,64 @@ folder: orders-shipping
 summary:
 ---
 
-Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
+# Shipping Policy
 
-### RS-232, RS-485, and RS-422
+### Shipping Options
 
-* All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
-* The original Logic and Logic16 cannot be directly connected to these signals. They also have over-voltage protection, but it was not designed to be used with these signals continuously. Either use a voltage divider or a dedicated line transceiver/receiver to convert these signals to CMOS/TTL levels.
-* When recording any of these signals, it is important to properly connect the ground from the logic analyzer to either the ground of the transmitter or the receiver. Do not connect ground to one of the signal wires, as this could damage your equipment. Neither RS-232, RS-485, nor RS-422 are isolated, which means that all transmitters and receivers on the bus must share the same ground to operate. In most cases, a ground wire is included in the bus wiring, which could be tapped with Logic. Otherwise, you will need to find another ground connection nearby to connect to.
-* For RS-422 and RS-485, it's generally not necessary to record both the + and - signals. In most cases, recording only one-half of the differential pair is sufficient. However, it's usually a good idea to record both sides, at least at first, to evaluate the differences in the recording quality of the two signals. Because the threshold voltage of the logic analyzer is not matched properly for differential signals, it's likely that one side of the differential pair will have a cleaner recording than the other.
+To check the shipping options available in your country, simply add an item to the cart on [www.saleae.com](https://www.saleae.com/) and select your country. Afterwards, click "Checkout" and enter your shipping information to view the available shipping options and shipping cost.
 
-### 12V and 24V TTL Logic
+### International Shipping - Duties and Taxes
 
-* Connecting to higher voltage signals with the new Logic 4, Logic 8, Logic Pro 8, or the Logic Pro 16.
+Saleae regularly ships internationally.
 
-  All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
+If you are shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt. 
 
-  This may work for most applications. However, keep in mind that the logic threshold \(the trip-point voltage that determines if the input is a logic 0 or a logic 1\) is very low compared to a 12-volt signal. If your signal does not swing all the way to ground or has a very slow transition speed, it may skew the results or simply not read correctly. In these cases, you may want to use a resistor divider to reduce the voltage level, so the trip point will appear to be higher relative to your signal. Keep the bandwidth requirements and Logic’s input capacity in mind when creating a resistor divider.
+In some locations \(i.e., most of the EU\), we offer the ability to pre-pay import taxes such as VAT. If this is the case, we can charge you the customs fees and it will be clearly indicated in the shopping cart. Afterwards, you will not get a customs bill. You will see what options are available on the cart page.
 
-* Connecting to higher voltage signals with the original Logic or Logic16.
+### **Order Emails and Tracking Numbers**
 
-  Logic's and Logic16's inputs operate up to 5 volts and have over-voltage protection to protect against short transients up to higher voltages. However, neither product can be directly connected to signals outside the 0V to 5V range.
+As soon as your order is placed, you will receive an email from us confirming the details. If you need to make any changes, please contact us as soon as possible.
 
-  To connect Logic to a higher voltage signal, you have several options. In the general case, the best solution is to use a level shifting IC or adapter to convert to a lower voltage.
+After your order ships, you will receive a second email with a tracking number and a link to check the tracking number. Please note that the tracking number may not appear in the system for up to 24 hours.
 
-  You may also be able to use a resistor divider. However, this will either reduce the input bandwidth of Logic or consume extra power from your circuit, depending on the resistor values.
+### Where Will My Order Ship From?
 
-### **Controller Area Network**
+For **online orders** placed at [www.saleae.com](https://www.saleae.com/), the origin of the shipment is determined by the currency your order was paid in. You cannot select the currency. Our cart page selects it automatically depending on the shipping country. Please refer to the table below.
 
-* Generally, we recommend converting CAN to a single-ended TTL signal before connecting it to Logic. However, in most cases, you can connect the CAN low signal directly to the Logic analyzer. CAN low is electrically similar to single-ended CAN and can be interpreted by our CAN analyzer.
-* Note: If you are using the original Logic16, make sure you have selected the lower voltage setting for 1.8V to 3.3V logic.
-* Note: If you are using 3.3 Volt CAN, you might not be able to record it directly with Logic 4.
-* Our products are most likely to work with recording CAN low. It is very unlikely that they will be able to record CAN high. Logic 4 requires CAN low to swing below 0.8 volts and above 2.0 volts. Logic 8 requires CAN low to swing below 0.6 volts and above 1.2 volts. Logic Pro 8 and Logic Pro 16 have comparator inputs instead of CMOS inputs, with selectable thresholds. For use with CAN low at 5 volts, the highest threshold setting is suggested. In the software, it is labeled as 3.3v+, and the threshold voltage itself is about 1.65 volts.
-* We recommend verifying that CAN low does swing below the required voltage before making a purchase. Otherwise, a voltage divider or a CAN adapter may be required.
-* The Saleae devices and CAN analyzer were designed with single-ended CAN in mind, for development of CAN devices that contain a CAN transceiver IC. The recommended way to record CAN data is to probe the single-ended signal between the CAN transceiver IC and the application processor.
+| Currency | Logic Products Ship From... | Accessories Ship From... |
+| :--- | :--- | :--- |
+| USD | South San Francisco, CA | South San Francisco, CA |
+| EUR | Europe \(EuroLogistix\) | Europe \(EuroLogistix\) |
+| GBP | Europe \(EuroLogistix\) | Europe \(EuroLogistix\) |
+| CAD | Canada \(Fulfillment by Amazon\) | South San Francisco, CA |
+| CNY | South San Francisco, CA | South San Francisco, CA |
+| AUD | South San Francisco, CA | South San Francisco, CA |
+| JPY | South San Francisco, CA | South San Francisco, CA |
+| NT$ | South San Francisco, CA | South San Francisco, CA |
 
-### **ECL \(Emitter Coupled Logic\)**
+For **purchase orders \(POs\)**, orders will ship from South San Francisco, CA in USD. This applies even for international orders outside of the US.
 
-ECL logic swings between -1.75 volts \(logic low\) and -0.9 volts \(logic high\). Because none of the Saleae products offer threshold options below ground, ECL cannot be directly recorded with digital inputs. The Logic Pro devices can record these signals in analog, but only at very low bandwidths, and the recorded signal can only be viewed in analog—protocol analyzers and digital measurements can't be applied.
+### **No Shipping Days**
 
-### **PECL \(Positive Emitter Coupled Logic\)**
+Saleae observes the typical United States holidays and does not ship on the following days:
 
-PECL swings from +3.4 volts \(logic low\) to +4.2 volts \(logic high\).
+* New Year's Day \(January 1\)
+* Memorial Day \(last Monday in May\)
+* Independence Day \(July 4\)
+* Labor Day \(first Monday in September\)
+* Thanksgiving Day \(fourth Thursday in November\)
+* Christmas Day \(December 25\).
 
-The highest threshold option for a Saleae product is only 1.65 volts on the Logic Pro devices, which is not high enough to properly record the PECL signals using the digital inputs. You may want to consider level shifting the signal down or recording it with the analog inputs at a much lower bandwidth.
+### **In-Stock Items**
 
-### **LVDS \(Low Voltage Differential Signaling\)**
+Normally, orders placed before 12 pm PST on weekdays are shipped the same day. The stocking status \(in stock or out of stock\) is displayed under each item in your cart.
 
-As mentioned before, none of the Saleae products have differential inputs. They are single-ended only. Ideally, LVDS signals should be recorded downstream of an LVDS line receiver or transceiver.
+### **Out-of-Stock Items**
 
-Recording directly with single-ended inputs: In situations with programmable drive strength or termination resistors, you may need to first check the signal voltages using the analog recording mode of the new Saleae products. Then check the recorded signals against the voltage threshold\(s\) for the product you are using.
+If an item is not in stock, an estimated time of shipment is displayed in your cart. This is our estimate, but sometimes it may take longer than indicated. If any of your items are out of stock, your entire order will be held until it can be shipped in full, but you may contact us to make other arrangements.
 
-### **Ethernet**
 
-It is not possible to directly record Ethernet signals with Saleae devices. However, it may be possible to record 10BASE-T data with some input circuitry.
 
-10BASE-T Ethernet is a differential signal using Manchester encoding. Ethernet cable has an impedance of 100 ohms, and the signals swing between +1V and -1V, producing a peak-to-peak voltage of +/- 2 volts. Saleae devices do not directly support recording differential signals, so a differential to a single-ended receiver is recommended. Once the signal has been converted to single-ended, it can be recorded, and physical layer decoding can be performed using the Manchester protocol analyzer built into the Saleae software. Since Ethernet devices will not communicate unless a device is connected to receive data, you will most likely need to tap the signals on an existing Ethernet transceiver.
-
-10 Mbit data with Manchester encoding has a bandwidth of 20 MHz. To record this with a Saleae device, a minimum sample rate of 80 MHz is required. For this, Logic 8, Logic Pro 8, Logic Pro 16, and the original Logic 16 would be suitable. Be sure to verify the IO standards of the device you will use before implementing the necessary single-ended conversion.
-
-100BASE-T Ethernet and faster cannot be recorded because the signal is tri-state. \(+1V, -1V, and 0V\). No Saleae device is capable of recording digital signals with 3 states, and the analog inputs do not have the required bandwidth to record 100BASE-T signals. Also, protocol decoders cannot be used on analog signals.
 
 
 {% include links.html %}
