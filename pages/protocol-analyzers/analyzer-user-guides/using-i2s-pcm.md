@@ -12,15 +12,15 @@ The specification for the I2S audio protocol can be found from Sparkfun's websit
 
 [I2S bus specification](https://www.sparkfun.com/datasheets/BreakoutBoards/I2SBUS.pdf)
 
-### **Decoding More Than Two Audio Channels at Once**
+## Decoding More Than Two Audio Channels at Once
 
 The Saleae analyzer is designed to decode two-channel audio in the I2S format. It is possible to decode additional channels by using more than one instance of the I2S analyzer at the same time and by sharing the clock and frame signal between analyzers. Each instance of the analyzers can decode two channels of audio.
 
-### **Mono Mode**
+## Mono Mode
 
 The Saleae I2S analyzer does not support any Mono formats.
 
-### **Common Problems**
+## Common Problems
 
 * Unable to display results in a signed decimal format, even when the I2S settings have signed number selected. Unsigned numbers are always shown.
 

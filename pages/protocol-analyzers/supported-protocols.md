@@ -33,13 +33,12 @@ The Saleae Logic software includes the following protocol analyzers:
 * HD44780 Parallel LCD
 * SWD \(ARM Serial Wire Debug\)
 
-### **More Protocol Analyzers**
+## More Protocol Analyzers
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
 
-### **Do all Saleae logic analyzer models support these protocols?**
+## Do all Saleae logic analyzer models support these protocols?
 
 Yes. However, you will need to use a device with sufficient bandwidth to record the original signal. For instance, Logic 4 simply does not have the bandwidth required to capture and decode USB full speed. Logic 4 has a maximum digital bandwidth of 3 MHz, and USB full speed requires a digital bandwidth of at least 12.5 MHz.
-
 
 {% include links.html %}

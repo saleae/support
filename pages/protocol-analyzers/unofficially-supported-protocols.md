@@ -10,7 +10,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 
 Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
 
-### **List of Unofficially Supported Protocols**
+## List of Unofficially Supported Protocols
 
 * [Smart Cards and SIM cards](https://github.com/dirkx/saleae-logic-ISO7816-smartcard-Analyser)
 * [Smart Cards and SIM cards \(with added features\)](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)

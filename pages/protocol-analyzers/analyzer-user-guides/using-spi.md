@@ -16,7 +16,7 @@ SPI uses a clock signal, two data signals \(MISO and MOSI\), and an enable signa
 
 The Saleae SPI analyzer is also generic enough to decode basic synchronous serial \(a clock signal and a data signal\) without a second data signal or an enable signal.
 
-### **Setup**
+## Setup
 
 Add the SPI analyzer to your capture. There are a number of settings for the analyzer. First, select the channels you are using. If you are not using an enable signal or if you only have one data signal, simply set the unused channels to "None". Only clock and one data channel \(either MISO or MOSI\) are required for the SPI analyzer to operate.
 
@@ -36,11 +36,11 @@ Next, select the remaining settings you are using. If you are unsure what settin
 
     Only applies when an enable signal is used. Defines the state of the enable signal when the SPI analyzer will read the data signals. 
 
-### **Multiple Devices / Enable Signals**
+## Multiple Devices / Enable Signals
 
 When you have multiple devices on the same SPI bus, you will have multiple enable signals, one for each slave device. To decode data from each slave device, simply add more SPI analyzers. It's perfectly fine for all SPI analyzers to share the same clock, the MISO, and MOSI signals. Note that the GUI will indicate that those channels are already in use, but that does not mean you can't use them.
 
-**Different Settings for MISO and MOSI**
+## Different Settings for MISO and MOSI
 
 In some cases, you may want to have different settings between the two data channels. That can easily be done by using two SPI analyzers. Analyzers in the Saleae software have no limit to the number of analyzers that can share the same channels, so just add two SPI analyzers using the same clock, and enable channels. Then, on each analyzer, disable one of the two data channels.
 
@@ -56,7 +56,7 @@ SPI analyzer 2
 
 Then assign the settings you like to each analyzer.
 
-### **Using the SPI Analyzer Without an Enable \(Chip Select\) Signal**
+## Using the SPI Analyzer Without an Enable \(Chip Select\) Signal
 
 In many cases, there is no chip select signal available for an SPI bus that needs to be recorded.
 
@@ -100,7 +100,7 @@ After a moment, the SPI analyzer will automatically reprocess the capture. The d
 
 ![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/735x230/76d9f1a07444eced8720f5be5d163c79/spi_finished.png)
 
-### **Common Issues**
+## Common Issues
 
 A red square appears on the clock channel when the enable channel goes low. This can be accompanied by one of these messages: "The initial \(idle\) state of the CLK line does not match the settings" or "Settings mismatch" or "Error".
 
@@ -108,7 +108,7 @@ This occurs when the clock polarity setting is not set properly. For instance, i
 
 ![SPI red error](https://trello-attachments.s3.amazonaws.com/5600544d79381592829e1109/398x227/320e771e3191d8f1994bef35a0cb5659/SPI_Square.png)
 
-### **Logic Analyzer Requirements and Recommendations**
+## Logic Analyzer Requirements and Recommendations
 
 If you are considering purchasing a Saleae logic analyzer to record and decode SPI data but you are not sure which unit to purchase, please first see these articles:
 

@@ -22,7 +22,7 @@ Then, correctly assign the data bits you are using to the corresponding channels
 
 Finally, set the clock channel and the clock edge correctly and press Save.
 
-**Decoding the Parallel Data**
+## Decoding the Parallel Data
 
 Click on the gear icon next to the "Simple Parallel" analyzer and select the preferred numeric format. The image below shows an example of decoding a 4-bit data bus into the hexadecimal format.
 
@@ -30,7 +30,7 @@ Click on the gear icon next to the "Simple Parallel" analyzer and select the pre
 
 ![Simple Parallel Data in Hex](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/593aee5a8504a595d393ee06/31be6e35568b8ed0b5c97ed4df6d7082/parallel-hex.png)
 
-**Export File Format**
+## Export File Format
 
 The protocol export will create a file using the currently selected display radix \(hex demonstrated here\). The export format has a header row and then 1 row per recorded parallel value. The values are the same as displayed in the displayed frames over the clock channel. There is one row per valid clock edge, either rising or falling, as specified in the analyzer settings.
 

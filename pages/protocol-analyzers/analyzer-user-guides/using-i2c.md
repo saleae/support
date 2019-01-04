@@ -22,7 +22,7 @@ However, when working on firmware without a I2C specific peripheral, either by b
 
 The 8-bit mode displays the address left shifted one bit, as it is reflected on the bus. The 7-bit mode shows the actual 7-bit address, which takes the data from the bus and right shifts it one bit.
 
-### **Issues with Noise Around Clock Edges**
+## Issues with Noise Around Clock Edges
 
 You may notice where the analyzer seems to decode less than 9 bits per frame, or incorrect results. If you notice this, carefully zoom in around each clock edge in the problem frame and check to see if there is a "glitch" or narrow pulse present next to the clock transition that is causing a clock edge to be detected as two edges.
 
@@ -36,13 +36,13 @@ You may want to try reducing the sample rate of the capture using a different IO
 
 I2C is particularly vulnerable to this issue due to the slow rise times caused by the open drain bus topology. The relatively slow signal rise time through the threshold region of the logic analyzer input buffer can sometimes cause these glitches to occur.
 
-### **Common Issues**
+## Common Issues
 
 * Why does every read transaction get preceded by a write transaction?
 
   If you're new to I2C, you may notice that a read operation may be preceded by a write transaction when one was not expected. That is most likely because the I2C slave you are using first expects the master to write the desired address that should be read back later. Since a read transaction is only unidirectional, the read transaction can't be used to inform the slave of the read address. In many cases, this is done by the master first starting with a write transaction where the target read address is sent to the slave, followed by a I2C "re-start" condition, which then allows the master to begin a read transaction. Now that the slave device is aware of the desired read address, it can transmit this data back to the master.
 
-### **Other Notes**
+## Other Notes
 
 * The I2C protocol analyzer does not support a 10-bit address mode and can only display data as 8-bit words.
 * The I2C analyzer does not support viewing data transfers in any other format than 8-bit words. If you are looking to display I2C data in larger word sizes, we suggest exporting the I2C results and combining 8-bit words into N-bit words in Excel.
