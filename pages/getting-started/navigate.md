@@ -8,7 +8,7 @@ summary:
 
 Once you have captured data, you can navigate around the viewport by using your mouse wheel, +/- keys, or up/down arrow keys to zoom. Click-and-drag in the viewport or use the left/right arrow keys to pan left and right.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PaAN7neNd2o?rel=0&controls=0&showinfo=0&autohide=1" showinfo="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/310200182" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 To learn more, see the [Navigating the Software](https://saleae.gitbook.io/docs/user-guide/using-logic/navigating-the-software) section of the User Guide.
 
