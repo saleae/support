@@ -2,10 +2,10 @@
 title: "Saleae Support"
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with navigating our Saleae Support site.
+summary:
 ---
 
-{% include note.html content="Our support articles are now hosted on GitHub! If you find any **issues, misinformation, or typos** with any of the articles, click _**Edit Me**_ at the top and submit an _Issue_, or submit your proposed changes via _Pull Request_. We appreciate the help!" %}
+{% include note.html content="Our support articles are now hosted on GitHub! If you find any issues, misinformation, or typos with any of the articles, click _**Edit Me**_ at the top and submit an _Issue_, or submit your proposed changes via _Pull Request_. We appreciate the help!" %}
 
 Welcome to Saleae's support site! Quickly find information using the **search bar** on the top-right.
 
