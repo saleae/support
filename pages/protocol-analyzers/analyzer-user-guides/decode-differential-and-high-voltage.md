@@ -8,7 +8,7 @@ summary:
 
 Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
 
-# RS-232, RS-485, and RS-422
+## RS-232, RS-485, and RS-422
 
 * All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
 * The original Logic and Logic16 cannot be directly connected to these signals. They also have over-voltage protection, but it was not designed to be used with these signals continuously. Either use a voltage divider or a dedicated line transceiver/receiver to convert these signals to CMOS/TTL levels.
